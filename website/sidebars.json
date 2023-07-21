@@ -1,0 +1,51 @@
+{
+  "docs": {
+    "Getting Started": ["installation", "configure", "running", "hmr", "devtools"],
+    "Docs": ["API","architecture", "ecosystem", "roadmap"],
+    "API": [
+      "api/render",
+      "styling",
+      "colors",
+      "local-styles",
+      "data-fetching",
+      {
+        "type": "category",
+        "label": "UI Primitives",
+        "items": [
+          "api/view",
+          "api/text",
+          "api/image",
+          "api/StyleSheet",
+          "api/Platform"
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Figma components",
+        "items": [
+          "api/page",
+          "api/frame",
+          "api/component",
+          "api/svg",
+          "api/ellipse",
+          "api/group",
+          "api/line",
+          "api/rectangle",
+          "api/star",
+          "api/vector",
+          "api/slice"
+        ]
+      },
+      {
+        "type": "category",
+        "label": "React Native compatibility",
+        "items": [
+          "api/Dimensions",
+          "api/Easing",
+          "api/useWindowDimensions",
+          "api/StatusBar"
+        ]
+      }
+    ]
+  }
+}
